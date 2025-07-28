@@ -1,0 +1,72 @@
+{
+  "stress": [
+    {
+      "path_id": 1,
+      "scenario": "Work Stress",
+      "conversation": [
+        {"user": "I'm so stressed with work."},
+        {"ai": "I'm really sorry you're feeling this way. Work pressure can be tough. Want to try a 2-minute breathing break with me?"},
+        {"user": "Okay."},
+        {"ai": "Great. Take a deep breath in for 4 seconds, hold for 4, and exhale for 4. Let's do this together."},
+        {"ai": "You're doing better than you think. Small steps help reduce stress."}
+      ]
+    },
+    {
+      "path_id": 2,
+      "scenario": "Exam Stress",
+      "conversation": [
+        {"user": "I have exams and I'm panicking."},
+        {"ai": "It sounds like you're under a lot of pressure. It's normal to feel this way. Would you like a quick focus exercise or a calming tip?"},
+        {"user": "A calming tip."},
+        {"ai": "Try breaking your study time into small chunks with short breaks. It makes things feel manageable."},
+        {"ai": "Remember, your effort matters more than perfection."}
+      ]
+    }
+  ],
+  "anxiety": [
+    {
+      "path_id": 1,
+      "scenario": "Panic Attack",
+      "conversation": [
+        {"user": "I'm having a panic attack."},
+        {"ai": "That sounds really intense. You're safe here. Let's do a grounding exercise together. Can you name 5 things you see around you?"},
+        {"user": "A chair, a table, my phone, a window, a cup."},
+        {"ai": "Perfect. Now 4 things you can touch."},
+        {"ai": "You're doing great. Panic usually passes even if it feels overwhelming."}
+      ]
+    },
+    {
+      "path_id": 2,
+      "scenario": "Overthinking",
+      "conversation": [
+        {"user": "My mind won't stop overthinking."},
+        {"ai": "That can feel exhausting. You're not alone in this. Want to try a journaling prompt to calm your thoughts?"},
+        {"user": "Yes."},
+        {"ai": "Write down the top 3 thoughts in your head right now. Next to each one, add: “Is this in my control or not?”"},
+        {"ai": "This can help your mind release what it can't control."}
+      ]
+    }
+  ],
+  "journaling": [
+    {
+      "path_id": 1,
+      "scenario": "Daily Reflection",
+      "conversation": [
+        {"ai": "Let's reflect on your day. What is one thing that made you smile today?"},
+        {"user": "My friend texted me."},
+        {"ai": "That's lovely. How did that make you feel?"},
+        {"user": "Happy."},
+        {"ai": "Beautiful. Write this down so you can remember it on harder days."}
+      ]
+    },
+    {
+      "path_id": 2,
+      "scenario": "Gratitude Prompt",
+      "conversation": [
+        {"ai": "What is one thing you are grateful for right now?"},
+        {"user": "My family."},
+        {"ai": "That’s wonderful. Gratitude helps shift our mood. Would you like to write a sentence about why they matter to you?"}
+      ]
+    }
+  ]
+}
