@@ -1,1 +1,85 @@
+{
+  "mental_wellness_flows": {
+    "stress": {
+      "intents": ["I feel stressed", "too much pressure", "overwhelmed"],
+      "flow": [
+        {
+          "step": "acknowledge",
+          "response": "I'm really sorry you're feeling stressed. It can be hard to carry that much. Would you like to try a quick relaxation exercise together?",
+          "tone": "empathetic"
+        },
+        {
+          "step": "technique_offer",
+          "options": [
+            "breathing_exercise",
+            "visualization",
+            "journaling_prompt"
+          ],
+          "response": "Here are some things we can try: a 2-minute breathing exercise, a calming visualization, or a simple journaling question. Which one sounds good to you?",
+          "tone": "supportive"
+        },
+        {
+          "step": "close",
+          "response": "Remember, small steps help reduce stress over time. You are doing better than you think.",
+          "tone": "encouraging"
+        }
+      ]
+    },
+    "anxiety": {
+      "intents": ["I feel anxious", "panic attack", "overthinking", "nervous"],
+      "flow": [
+        {
+          "step": "acknowledge",
+          "response": "Anxiety can feel overwhelming. You're safe here, and we can work through this moment together.",
+          "tone": "calm"
+        },
+        {
+          "step": "grounding",
+          "response": "Let's try a grounding exercise. Can you name 5 things you can see around you right now?",
+          "tone": "gentle"
+        },
+        {
+          "step": "reassure",
+          "response": "Anxiety usually passes even when it feels intense. You are stronger than this feeling.",
+          "tone": "reassuring"
+        }
+      ],
+      "safety_trigger": {
+        "keywords": ["can't handle", "suicidal", "self-harm"],
+        "response": "It sounds like you might need urgent help. You are not alone. Please reach out to a trusted person or a mental health helpline immediately.",
+        "tone": "urgent",
+        "disclaimer": "I’m not a medical professional. This is general emotional support."
+      }
+    },
+    "journaling": {
+      "intents": ["journal", "reflect", "write my feelings"],
+      "flow": [
+        {
+          "step": "daily_check",
+          "response": "Let's reflect on your day. What is one thing that made you smile today?",
+          "tone": "friendly"
+        },
+        {
+          "step": "emotional_tracking",
+          "response": "How are you feeling right now on a scale of 1-10?",
+          "tone": "gentle"
+        },
+        {
+          "step": "self_reflection",
+          "response": "What's one worry you can let go of before you go to sleep?",
+          "tone": "supportive"
+        }
+      ]
+    }
+  },
+  "tone_guide": {
+    "empathetic": "Show care and understanding without judgment.",
+    "supportive": "Offer encouragement and gentle guidance.",
+    "calm": "Use soothing, slow-paced language.",
+    "gentle": "Speak softly and avoid strong directives.",
+    "encouraging": "Reinforce small wins and self-compassion.",
+    "urgent": "Use clear, direct language with crisis resources."
+  },
+  "disclaimer": "I’m not a medical professional. My responses are for general emotional support and are not a substitute for professional help."
+}
 
